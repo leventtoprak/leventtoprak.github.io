@@ -1,71 +1,49 @@
-* {
-  box-sizing: border-box;
-}
-
 body {
-  margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #f3f4f6;
-  color: #111827;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
 }
 
-/* ÜST MENÜ */
-.site-header {
-  width: 100%;
-  background: #111827;
-}
-
-.header-inner {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 16px 20px;
-}
-
-.header-inner a {
-  color: #ffffff;
-  text-decoration: none;
-  margin-right: 20px;
-  font-weight: 600;
-}
-
-.header-inner a:hover {
-  text-decoration: underline;
-}
-
-/* ANA İÇERİK */
+/* SAYFA ORTALAMA */
 .container {
   max-width: 900px;
-  margin: 50px auto;
-  padding: 40px;
-  background: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* MENÜ */
+nav {
+  margin: 20px 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1d4ed8;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 /* BAŞLIKLAR */
 h1 {
-  font-size: 38px;
-  margin-top: 0;
+  font-size: 36px;
 }
 
 h2 {
-  margin-top: 50px;
-  color: #1f2937;
+  margin-top: 40px;
 }
 
 /* FORM */
 .form-box {
-  margin-top: 25px;
-  padding: 20px;
-  background: #fafafa;
-  border-radius: 10px;
-  border: 1px solid #e5e7eb;
+  margin-top: 20px;
 }
 
 /* FOOTER */
 footer {
-  margin-top: 50px;
-  text-align: center;
+  margin-top: 40px;
   font-size: 14px;
-  color: #6b7280;
+  color: #666;
+  text-align: center;
 }
+
