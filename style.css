@@ -47,3 +47,8 @@ footer {
   text-align: center;
 }
 
+.form-box {
+  max-width: 640px;
+  margin: 30px auto;
+}
+
