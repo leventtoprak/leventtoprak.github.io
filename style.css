@@ -30,10 +30,11 @@ nav a:hover {
 .container {
   max-width: 900px;
   margin: 0 auto 60px auto;
-  padding: 40px 20px;
+  padding: 40px 20px 40px 30px; /* SOLDA 5–10 mm boşluk */
   text-align: center;
   background: #ffffff;
 }
+
 
 /* BAŞLIKLAR */
 h1 {
