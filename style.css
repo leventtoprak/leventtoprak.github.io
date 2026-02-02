@@ -29,11 +29,15 @@ nav a:hover {
 /* ANA ALAN */
 .container {
   max-width: 900px;
-  margin: 0 auto 60px auto;
-  padding: 40px 20px 40px 30px; /* SOLDA 5–10 mm boşluk */
-  text-align: center;
+  margin-left: 5cm;   /* 5 cm boşluk */
+  margin-right: auto;
+  margin-top: 40px;
+  margin-bottom: 60px;
+
+  padding: 40px;
   background: #ffffff;
 }
+
 
 
 /* BAŞLIKLAR */
