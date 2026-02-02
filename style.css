@@ -1,59 +1,71 @@
-/* Genel ayarlar */
+* {
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: #f5f7fa;
   margin: 0;
-  padding: 0;
-  color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3f4f6;
+  color: #111827;
 }
 
-/* Sayfa ortalama */
-.container {
+/* ÜST MENÜ */
+.site-header {
+  width: 100%;
+  background: #111827;
+}
+
+.header-inner {
   max-width: 900px;
-  margin: 40px auto;
-  padding: 20px;
-  background: #ffffff;
-  border-radius: 10px;
+  margin: 0 auto;
+  padding: 16px 20px;
 }
 
-/* Menü */
-nav {
-  margin-bottom: 30px;
-}
-
-nav a {
+.header-inner a {
+  color: #ffffff;
   text-decoration: none;
-  color: #4f46e5;
-  font-weight: bold;
-  margin-right: 10px;
+  margin-right: 20px;
+  font-weight: 600;
 }
 
-nav a:hover {
+.header-inner a:hover {
   text-decoration: underline;
 }
 
-/* Başlıklar */
+/* ANA İÇERİK */
+.container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 40px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.1);
+}
+
+/* BAŞLIKLAR */
 h1 {
-  font-size: 36px;
+  font-size: 38px;
+  margin-top: 0;
 }
 
 h2 {
-  margin-top: 40px;
+  margin-top: 50px;
   color: #1f2937;
 }
 
-/* Form alanı */
+/* FORM */
 .form-box {
-  margin-top: 20px;
-  padding: 15px;
-  border-radius: 8px;
-  border: 1px solid #ddd;
+  margin-top: 25px;
+  padding: 20px;
+  background: #fafafa;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
 }
 
-/* Footer */
+/* FOOTER */
 footer {
-  margin-top: 40px;
-  font-size: 14px;
-  color: #666;
+  margin-top: 50px;
   text-align: center;
+  font-size: 14px;
+  color: #6b7280;
 }
