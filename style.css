@@ -1,31 +1,59 @@
+/* Genel ayarlar */
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f5f7fa;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Sayfa ortalama */
+.container {
   max-width: 900px;
-  margin: auto;
+  margin: 40px auto;
   padding: 20px;
-  background: #f9f9f9;
-  line-height: 1.6;
-
+  background: #ffffff;
+  border-radius: 10px;
 }
 
-h1 {
-  color: #2c3e50;
-  margin-bottom: 10px;
-}
-
-h2 {
-  color: #34495e;
-}
+/* Menü */
 nav {
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 nav a {
   text-decoration: none;
-  color: #2c3e50;
+  color: #4f46e5;
+  font-weight: bold;
   margin-right: 10px;
 }
 
 nav a:hover {
   text-decoration: underline;
+}
+
+/* Başlıklar */
+h1 {
+  font-size: 36px;
+}
+
+h2 {
+  margin-top: 40px;
+  color: #1f2937;
+}
+
+/* Form alanı */
+.form-box {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+/* Footer */
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+  text-align: center;
 }
